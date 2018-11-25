@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
-  resource :achievement, only: [ :new, :create ]
+  resources :achievements, only: [ :new, :create, :show ]
   root to: 'welcome#index'
 end
