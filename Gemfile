@@ -27,6 +27,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'spring-commands-rspec'
+  gem 'spring-commands-cucumber'
   gem 'rubocop-rspec'
 end
 
@@ -42,6 +43,8 @@ end
 group :test do
   gem 'capybara'
   gem "pry"
+  gem 'cucumber-rails', require: false
+  gem 'database_cleaner'
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
