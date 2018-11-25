@@ -12,13 +12,13 @@ gem 'puma', '~> 3.0'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.2'
-gem 'bootstrap-sass'
 
 gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass'
 gem 'simple_form'
+gem 'redcarpet'
 
 
 group :development, :test do
@@ -26,8 +26,8 @@ group :development, :test do
   gem 'byebug', platform: :mri
   gem 'rspec-rails'
   gem 'factory_bot_rails'
-  gem 'spring'
   gem 'spring-commands-rspec'
+  gem 'rubocop-rspec'
 end
 
 group :development do
@@ -41,6 +41,7 @@ end
 
 group :test do
   gem 'capybara'
+  gem "pry"
 end
 
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]

@@ -1,4 +1,4 @@
-<%= simple_form_for @achievement, url: achievement_path do |f| %>
+<%= simple_form_for @achievement, url: achievements_path do |f| %>
   <%= f.input :title %>
   <%= f.input :description %>
   <%= f.input :privacy, collection: Hash[Achievement.privacies.map { |k, v| [ k.split('_').first.capitalize, k]}] %>
