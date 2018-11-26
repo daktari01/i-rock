@@ -33,6 +33,11 @@ class AchievementsController < ApplicationController
     @achievement = Achievement.find(params[:id])
   end
 
+  def destroy
+    Achievement.destroy(params[:id])
+    redirect_to(achievements_path)
+  end
+
   private
 
   def achievement_params
