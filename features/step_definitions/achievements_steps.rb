@@ -1,7 +1,7 @@
-Given("I am a guest user") do
+Given('I am a guest user') do
 end
 
-Given("there is a public achievement") do
+Given('there is a public achievement') do
   @achievement = FactoryBot.create(:public_achievement, title: 'I did it')
 end
 

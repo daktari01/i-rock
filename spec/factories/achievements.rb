@@ -1,9 +1,9 @@
 FactoryBot.define do
   factory :achievement do
     sequence(:title) { |n| "Achievement #{n}" }
-    description { "Description" }
+    description { 'Description' }
     featured { false }
-    cover_image { "some_file.png" }
+    cover_image { 'some_file.png' }
 
     factory :public_achievement do
       privacy { :public_access }

@@ -10,16 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20181121092240) do
-
-  create_table "achievements", force: :cascade do |t|
-    t.string   "title"
-    t.text     "description"
-    t.integer  "privacy"
-    t.boolean  "featured"
-    t.string   "cover_image"
-    t.datetime "created_at",  null: false
-    t.datetime "updated_at",  null: false
+ActiveRecord::Schema.define(version: 20_181_121_092_240) do
+  create_table 'achievements', force: :cascade do |t|
+    t.string   'title'
+    t.text     'description'
+    t.integer  'privacy'
+    t.boolean  'featured'
+    t.string   'cover_image'
+    t.datetime 'created_at',  null: false
+    t.datetime 'updated_at',  null: false
   end
-
 end
