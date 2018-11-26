@@ -28,13 +28,33 @@ describe AchievementsController do
     end
   end
 
-  describe "POST create", :create do
-    it "redirects to achievements#show" do
-      post :create, params: { achievement: FactoryBot.attributes_for(:public_achievement) }
-      expect(response).to redirect_to(achievement_path(assigns[:achievement]))
-    end
-    it "creates new achievement in database" do
+  describe "POST create" do
+    context "valid data" do
+      let(:valid_data) { FactoryBot.attributes_for(:public_achievement) }
+      it "redirects to achievements#show" do
+        post :create, params: { achievement: valid_data }
+        expect(response).to redirect_to(achievement_path(assigns[:achievement]))
+      end
 
+      it "creates new achievement in the database" do
+        expect do
+          post :create, params: {achievement: valid_data }
+        end.to change(Achievement, :count).by(1)
+      end
+    end
+
+    context "invalid data" do
+      let(:invalid_data) { FactoryBot.attributes_for(:public_achievement, title: '') }
+      it "renders :new template" do
+        post :create, params: { achievement: invalid_data }
+        expect(response).to render_template(:new)
+      end
+
+      it "doesn't create new achievement in the database" do
+        expect do
+          post :create, params: { achievement: invalid_data }
+        end.not_to change(Achievement, :count)
+      end
     end
   end
 end

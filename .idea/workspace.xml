@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd065a00-2402-46d3-9730-45c76e31f8a1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/factories/achievements.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/factories/achievements.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -66,7 +64,7 @@
           <entry key="Gemfile" value="256" />
           <entry key="erb" value="670" />
           <entry key="feature" value="301" />
-          <entry key="rb" value="3613" />
+          <entry key="rb" value="3950" />
           <entry key="scss" value="22" />
         </counts>
       </usages-collector>
@@ -74,7 +72,7 @@
         <counts>
           <entry key="Cucumber" value="301" />
           <entry key="RHTML" value="670" />
-          <entry key="Ruby" value="3869" />
+          <entry key="Ruby" value="4206" />
           <entry key="SCSS" value="22" />
         </counts>
       </usages-collector>
@@ -88,8 +86,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Gemfile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="752">
-              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+            <state relative-caret-position="800">
+              <caret line="50" column="64" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="64" />
             </state>
           </provider>
         </entry>
@@ -112,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
+            <state relative-caret-position="752">
+              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
             </state>
           </provider>
         </entry>
@@ -151,8 +149,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/achievements_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="384">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -166,7 +164,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/factories/achievements.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="256">
@@ -190,6 +188,7 @@
       <find>achie</find>
       <find>spri</find>
       <find>0</find>
+      <find>rub</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -215,11 +214,11 @@
         <option value="$PROJECT_DIR$/features/achievement_page.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/achievements_steps.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/controllers/achievements_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/achievement.rb" />
         <option value="$PROJECT_DIR$/app/views/achievements/show.html.erb" />
-        <option value="$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/factories/achievements.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/achievements_controller.rb" />
+        <option value="$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb" />
       </list>
     </option>
   </component>
@@ -418,7 +417,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="achc&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/controllers/achievements_controller.rb&#10;rou&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/config/routes.rb&#10;achs&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/spec/features/achievement_page_spec.rb&#10;achco&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/controllers/achievements_controller.rb&#10;achcon&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/controllers/achievements_controller.rb&#10;ac&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/views/achievements&#10;route&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/config/routes.rb&#10;application.ht&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/views/layouts/application.html.erb" />
+    <property name="SearchEverywhereHistoryKey" value="achc&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/spec/controllers/achievement_controller_spec.rb&#10;rou&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/config/routes.rb&#10;achs&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/spec/features/achievement_page_spec.rb&#10;achco&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/controllers/achievements_controller.rb&#10;achcon&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/controllers/achievements_controller.rb&#10;ac&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/views/achievements&#10;route&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/config/routes.rb&#10;application.ht&#9;FILE&#9;file:///Users/daktari/Andela/Work/Ruby/i-rock/app/views/layouts/application.html.erb" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -559,12 +558,12 @@
       <workItem from="1541890396321" duration="861000" />
       <workItem from="1542394112807" duration="423000" />
       <workItem from="1542566341079" duration="10979000" />
-      <workItem from="1542913732002" duration="13252000" />
+      <workItem from="1542913732002" duration="14237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28383000" />
+    <option name="totallyTimeSpent" value="29368000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="0" width="1920" height="1080" extended-state="0" />
@@ -665,20 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/achievements_steps.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="752">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/create_achievement_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -693,24 +678,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/achievements_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/achievements/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="45" selection-start-line="3" selection-start-column="45" selection-end-line="3" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="20" column="35" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -725,6 +696,34 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/achievements_steps.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="800">
+          <caret line="50" column="64" selection-start-line="50" selection-start-column="61" selection-end-line="50" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/achievements_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
         </state>
       </provider>
     </entry>
