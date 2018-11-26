@@ -1,4 +1,9 @@
 class AchievementsController < ApplicationController
+
+  def index
+    @achievements = Achievement.public_access
+  end
+
   def new
     @achievement = Achievement.new
   end
