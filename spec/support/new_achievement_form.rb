@@ -17,7 +17,7 @@ class NewAchievementForm
   end
 
   def submit
-    click_on("Create Achievement")
+    click_on('Create Achievement')
     self
   end
 end
