@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd065a00-2402-46d3-9730-45c76e31f8a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/spec/support/login_form.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/features/create_achievement_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/features/create_achievement_spec.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/achievement.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/achievement.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spec/models/achievement_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/achievement_spec.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -59,7 +57,7 @@
           <entry key="Gemfile" value="4" />
           <entry key="erb" value="8" />
           <entry key="feature" value="1" />
-          <entry key="rb" value="35" />
+          <entry key="rb" value="36" />
           <entry key="scss" value="1" />
         </counts>
       </usages-collector>
@@ -67,7 +65,7 @@
         <counts>
           <entry key="Cucumber" value="1" />
           <entry key="RHTML" value="8" />
-          <entry key="Ruby" value="39" />
+          <entry key="Ruby" value="40" />
           <entry key="SCSS" value="1" />
         </counts>
       </usages-collector>
@@ -76,7 +74,7 @@
           <entry key="Gemfile" value="268" />
           <entry key="erb" value="670" />
           <entry key="feature" value="301" />
-          <entry key="rb" value="7717" />
+          <entry key="rb" value="8674" />
           <entry key="scss" value="22" />
         </counts>
       </usages-collector>
@@ -84,7 +82,7 @@
         <counts>
           <entry key="Cucumber" value="301" />
           <entry key="RHTML" value="670" />
-          <entry key="Ruby" value="7985" />
+          <entry key="Ruby" value="8942" />
           <entry key="SCSS" value="22" />
         </counts>
       </usages-collector>
@@ -116,21 +114,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-              <folding>
-                <element signature="e#137#568#0" />
-                <element signature="e#594#1051#0" />
-              </folding>
+            <state relative-caret-position="771">
+              <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spec/features/create_achievement_spec.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/spec/features/create_achievement_spec.rb">
+        <entry file="file://$PROJECT_DIR$/spec/models/achievement_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="400">
+              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -140,15 +143,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="112">
               <caret line="7" column="46" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -165,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/support/login_form.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+            <state relative-caret-position="240">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -183,8 +177,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/achievement.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="272">
+              <caret line="17" column="59" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="59" />
             </state>
           </provider>
         </entry>
@@ -241,11 +235,12 @@
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/achievements_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/user.rb" />
-        <option value="$PROJECT_DIR$/app/models/achievement.rb" />
         <option value="$PROJECT_DIR$/spec/support/new_achievement_form.rb" />
         <option value="$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb" />
         <option value="$PROJECT_DIR$/spec/support/login_form.rb" />
         <option value="$PROJECT_DIR$/spec/features/create_achievement_spec.rb" />
+        <option value="$PROJECT_DIR$/spec/models/achievement_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/achievement.rb" />
       </list>
     </option>
   </component>
@@ -255,10 +250,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
-    <option name="x" value="1440" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -602,13 +596,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45912000" />
+    <option name="totallyTimeSpent" value="48587000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1440" y="0" width="1920" height="1080" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178125" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -641,7 +635,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ruby-line">
           <url>file://$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb</url>
-          <line>68</line>
+          <line>66</line>
           <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
@@ -720,9 +714,6 @@
     <entry file="file://$PROJECT_DIR$/app/views/achievements/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/spec/models/achievement_spec.rb">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="608">
@@ -786,13 +777,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/achievement.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/achievement_page_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="112">
@@ -816,26 +800,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/support/login_form.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="240">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/controllers/achievement_controller_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="71" column="7" selection-start-line="71" selection-start-column="7" selection-end-line="71" selection-end-column="7" />
-          <folding>
-            <element signature="e#137#568#0" />
-            <element signature="e#594#1051#0" />
-          </folding>
+        <state relative-caret-position="771">
+          <caret line="70" column="7" selection-start-line="70" selection-start-column="7" selection-end-line="70" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/features/create_achievement_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="224">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/achievement.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="59" selection-start-line="17" selection-start-column="54" selection-end-line="17" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spec/models/achievement_spec.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
         </state>
       </provider>
     </entry>
