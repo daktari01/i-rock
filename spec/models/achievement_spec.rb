@@ -9,6 +9,9 @@ RSpec.describe Achievement, type: :model do
       expect(achievement.errors[:title]).not_to be_empty
       expect(achievement.valid?).to be_falsey
     end
+    
+    # Alternative of above example
+    it { should validate_presence_of(:title) }
 
     it 'requires title to be unique for one user' do
       user = FactoryBot.create(:user)
@@ -25,10 +28,16 @@ RSpec.describe Achievement, type: :model do
       expect(new_achievement.valid?).to be_truthy
     end
 
+    # Alternative of the above 2 examples
+    it { should validate_uniqueness_of(:title).scoped_to(:user_id).with_message("You can't have two achievements with the same title") }
+
     it 'belongs to user' do
       achievement = Achievement.new(title: 'Some title', user: nil)
       expect(achievement.valid?).to be_falsey
     end
+
+    # Alternative of above example
+    it { should validate_presence_of(:user) }
 
     it 'has belongs_to user association' do
       #   1st approach
@@ -40,5 +49,7 @@ RSpec.describe Achievement, type: :model do
       u = Achievement.reflect_on_association(:user)
       expect(u.macro).to eq(:belongs_to)
     end
+    # Alternative of above example, but not passing because of [optional: true] on achievement model
+    # it { should belong_to(:user) }
   end
 end

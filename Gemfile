@@ -45,6 +45,7 @@ group :test do
   gem 'database_cleaner'
   gem 'pry'
   gem 'rails-controller-testing'
+  gem 'shoulda-matchers', '4.0.0.rc1'
 end
 
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
