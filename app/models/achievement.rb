@@ -3,6 +3,7 @@ class Achievement < ApplicationRecord
 
   validates :title, presence: true
   # validates :title, uniqueness: true
+  validates :user, presence: true
 
   validate :unique_title_for_one_user
 
