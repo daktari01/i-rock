@@ -4,7 +4,6 @@
     <list default="true" id="dd065a00-2402-46d3-9730-45c76e31f8a1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/models/achievement.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/achievement.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spec/models/achievement_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/models/achievement_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/rails_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/rails_helper.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -75,7 +74,7 @@
           <entry key="Gemfile" value="292" />
           <entry key="erb" value="670" />
           <entry key="feature" value="301" />
-          <entry key="rb" value="9482" />
+          <entry key="rb" value="9943" />
           <entry key="scss" value="22" />
         </counts>
       </usages-collector>
@@ -83,7 +82,7 @@
         <counts>
           <entry key="Cucumber" value="301" />
           <entry key="RHTML" value="670" />
-          <entry key="Ruby" value="9774" />
+          <entry key="Ruby" value="10235" />
           <entry key="SCSS" value="22" />
         </counts>
       </usages-collector>
@@ -139,11 +138,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spec/models/achievement_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="643">
-              <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
+              <caret line="63" column="77" selection-start-line="63" selection-start-column="77" selection-end-line="63" selection-end-column="77" />
             </state>
           </provider>
         </entry>
@@ -175,11 +174,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/models/achievement.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+            <state relative-caret-position="272">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -240,8 +239,8 @@
         <option value="$PROJECT_DIR$/spec/features/create_achievement_spec.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/spec/rails_helper.rb" />
-        <option value="$PROJECT_DIR$/app/models/achievement.rb" />
         <option value="$PROJECT_DIR$/spec/models/achievement_spec.rb" />
+        <option value="$PROJECT_DIR$/app/models/achievement.rb" />
       </list>
     </option>
   </component>
@@ -597,7 +596,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51896000" />
+    <option name="totallyTimeSpent" value="52941000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -820,17 +819,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/achievement.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spec/models/achievement_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="643">
-          <caret line="47" column="100" selection-start-line="47" selection-start-column="100" selection-end-line="47" selection-end-column="100" />
+          <caret line="63" column="77" selection-start-line="63" selection-start-column="77" selection-end-line="63" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/achievement.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
         </state>
       </provider>
     </entry>
